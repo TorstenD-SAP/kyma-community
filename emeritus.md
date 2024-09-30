@@ -26,11 +26,11 @@ This file lists all maintainers that are no longer actively contributing to the 
 * Sayan Hazra (**[@sayanh](https://github.com/sayanh)**) involved in `area/eventing`, `area/serverless`.
 * Suleyman Akbas (**[@suleymanakbas91](https://github.com/suleymanakbas91)**) involved in `area/cli`, `area/logging`, `area/tracing`, `area/monitoring`, `area/performance`.
 * Adam Wałach (**[@adamwalach](https://github.com/adamwalach)**) involved in `area/ci` and `area/service-catalog`.
-* Jose Cortina (**[@jose-cortina](https://github.com/jose-cortina)**) involved in `area/community`.
+* Jose Cortina involved in `area/community`.
 * Kamil Sputo (**[@ksputo](https://github.com/ksputo)**) involved in `area/service-catalog` and  `area/control-plane`.
 * Mostafa Shorim (**[@shorim](https://github.com/shorim)**) involved in `area/cli`, `area/logging`, `area/tracing`, `area/monitoring`.
 * Pranav Shankar (**[@Pranav-SA](https://github.com/Pranav-SA)**) involved in `area/logging`, `area/tracing`, `area/monitoring`.
-* Radu Fantaziu (**[@radufa](https://github.com/radufa)**) involved in `area/eventing`.
+* Radu Fantaziu involved in `area/eventing`.
 * Pooya Salehi (**[@pxsalehi](https://github.com/pxsalehi)**) involved in `area/eventing`.
 * Klaudia Grzondziel (**[@klaudiagrz](https://github.com/klaudiagrz)**) creating docs for `area/documentation`, `area/service-management`, `area/control-plane`, `area/community`, and contributing to the overall Kyma documentation.
 * Mariusz Szymański (**[@Maladie](https://github.com/Maladie)**) involved in `area/application-connector`, `area/management-plane`.
@@ -45,3 +45,5 @@ This file lists all maintainers that are no longer actively contributing to the 
 * Karol Szwaj (**[@cnvergence](https://github.com/cnvergence)**) involved in `area/api-gateway`, `area/service-mesh`.
 * Jakub Łukomski (**[@qbalukom](https://github.com/qbalukom)**) involved in `area/console`, `area/busola`.
 * Dariusz Tutaj (**[@dariusztutaj](https://github.com/dariusztutaj)**) involved in `area/api-gateway`, `area/service-mesh`.
+* Jan Woźniak (**[@wozniakjan](https://github.com/wozniakjan)**) involved in `area/control-plane`,`area/tests`, `area/charts`, `area/ci`, `area/security`, `area/dependency`, `area/service-management`.
+* Till Knuesting (**[@tillknuesting](https://github.com/tillknuesting)**) involved in `area/control-plane`,`area/tests`, `area/charts`, `area/ci`, `area/security`, `area/dependency`, `area/service-management`.

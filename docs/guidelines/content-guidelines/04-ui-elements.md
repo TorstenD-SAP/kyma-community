@@ -1,6 +1,4 @@
----
-title: UI elements
----
+# UI Elements
 
 Contrary to the regular technical documentation, UI elements follow different guidelines and best practices. Due to the limited space you can use to convey a message, your UI text must be as precise and concise as possible. Use the following general guidelines to design and write content for UI elements:
 
@@ -54,7 +52,6 @@ Contrary to the regular technical documentation, UI elements follow different gu
 
   ⛔️ Save & exit
 
-
 ## Labels
 
 Labels are one-line texts that appear in various types of UI elements, such as buttons, titles and headings, forms, and drop-down menus. When designing labels for the UI elements in the Kyma project, make sure to:
@@ -88,7 +85,6 @@ When designing a button label, you must be as straightforward and concise as pos
 
 - Be careful when using words of similar meaning, such as `Delete` and `Remove`.
 
-
 ## Tooltips
 
 Tooltips are messages that provide additional information about a certain UI element. Still, the text within a tooltip must contain information that brings value to the user, so avoid adding content that may be irrelevant. Tooltips cannot contain information that is necessary to complete a given task. Such information should be visible at first glimpse. Otherwise, users will have to remember the content of a tooltip and refer back to it after the tooltip is deactivated. Here are some general guidelines on creating tooltip texts:
@@ -101,7 +97,6 @@ Tooltips are messages that provide additional information about a certain UI ele
 
 - Omit punctuation in case of one-line label tooltips. For more information, see [Labels](#labels).
 
-
 ## Messages
 
 There are many different types of messages appearing in every UI. The most common ones are pop-ups and regular messages that users can find on your page. To avoid information pollution, make sure that all your messages are informative and useful to the users. Moreover:
@@ -109,7 +104,7 @@ There are many different types of messages appearing in every UI. The most commo
 - Use punctuation in case of messages that are full sentences. In case of clauses (fragments of a sentence), omit punctuation.
 - Use title case for the title of your pop-up message. Keep it as simple as possible and omit punctuation. For more information, see [Labels](#labels).
 
-### Error messages
+### Error Messages
 
 An error message informs about unsuccessful outcome of an action or conveys any other negative information, so you must choose your words wisely not to upset the user. Here are some tips that will help you design your error message:  
 
@@ -123,8 +118,7 @@ An error message informs about unsuccessful outcome of an action or conveys any 
 
 - Avoid title case. It can give users a feeling they are being looking down on.
 
-
-## Placeholder texts
+## Placeholder Texts
 
 A placeholder is a tricky UI element. It tends to disappear when the user clicks a given form field, so it requires them to use their memory, which increases memory load and hurts usability. For this reason:
 
@@ -133,14 +127,14 @@ A placeholder is a tricky UI element. It tends to disappear when the user clicks
 - Use sentence case for your placeholder.
 - Omit full stop at the end of the placeholder text.
 
-
 ## Reference
 
 Follow these resources for further reference:
+
 - [UI Text Guidelines for SAP Fiori Apps](https://experience.sap.com/internal/fiori-design-web/ui-text-guidelines-for-sap-fiori/)
-- [5 rules for choosing button labels](https://uxmovement.medium.com/5-rules-for-choosing-the-right-words-on-button-labels-dc3f74c2c2a3)
+- [5 Rules for Choosing the Right Words on Button Labels](https://uxmovement.medium.com/5-rules-for-choosing-the-right-words-on-button-labels-dc3f74c2c2a3)
 - [Tooltip Guidelines](https://www.nngroup.com/articles/tooltip-guidelines/)
 - [Tooltips: How to Craft Effective Guiding Text](https://www.wix.com/wordsmatter/blog/2020/06/tooltips/)
 - [Placeholders in Form Fields Are Harmful](https://www.nngroup.com/articles/form-design-placeholders/)
-- [Alternatives to Placeholder Text](https://medium.com/nextux/alternatives-to-placeholder-text-13f430abc56f)
+- [Alternatives to Placeholder Text](https://coyleandrew.medium.com/alternatives-to-placeholder-text-13f430abc56f)
 - [How to Write and Design User-Friendly Error Messages](https://xd.adobe.com/ideas/process/information-architecture/error-message-design-ux/)

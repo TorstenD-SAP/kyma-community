@@ -1,6 +1,4 @@
----
-title: Style and terminology
----
+# Style and Terminology
 
 When writing Kyma documentation, refer to the following guidelines for grammar, capitalization, and preferred word choices. These guidelines help ensure that all contributors write in the same way to ensure a uniform flow throughout the whole Kyma documentation.
 
@@ -10,14 +8,14 @@ When writing Kyma documentation, refer to the following guidelines for grammar, 
 
 These are the generally accepted grammar rules for writing Kyma documentation.
 
-### Active voice
+### Active Voice
 
 Use active voice whenever possible. Active voice is clear, concise, and it avoids misinterpretation. It is also easier for non-native speakers to understand. Passive voice is indirect, uses more words, and can be misleading because it reverses the logical order of events.
 
 ✅ The endpoint path includes your service name.  
 ⛔️ Your service name is to be included in the endpoint path.
 
-### Voice and tone
+### Voice and Tone
 
 There are different tones for different types of technical documentation, which can range from instructional to somewhat conversational. The goal is always to support people using the product and, in blogs and release notes, also to help business users understand changes.
 
@@ -91,22 +89,25 @@ Whenever you point to the outside sources, research whether the name of the sour
   ⛔️ kubernetes  
   ⛔️ k8s
 
-### Sentence case
+### Sentence Case
 
 Use [Sentence case](https://dictionary.cambridge.org/dictionary/english/sentence-case) for:
-- Standard sentences
-- Headings
 
-> **NOTE:** For more details about [headings](03-formatting.md#headings), see the Formatting guidelines.
+- Standard sentences
 
 ### Title Case
 
 Use [Title Case](https://dictionary.cambridge.org/dictionary/english/title-case) for:
+
 - The names of Kyma components, such as Application Connector or API Gateway Controller
+- Headings
+
+> **NOTE:** For more details about [headings](03-formatting.md#headings), see the Formatting guidelines.
 
 ### CamelCase
 
-Use [**CamelCase**](https://dictionary.cambridge.org/dictionary/english/camel-case) for 
+Use [**CamelCase**](https://dictionary.cambridge.org/dictionary/english/camel-case) for
+
 - Kubernetes resources
 - custom resources
 
@@ -121,9 +122,9 @@ For titles and navigation, add blank spaces, so that it is natural language inst
 ⛔️ configmap  
 ⛔️ config map
   
-If you refer to the code specifically, format it as code 
+If you refer to the code specifically, format it as code.
 
-> **NOTE:** For more details about [code font](03-formatting.md#code-font-and-bold-font), see the Formatting guidelines).
+> **NOTE:** For more details about [code font](03-formatting.md#code-font-and-bold-font), see the Formatting guidelines.
 
 ✅ `APIRule`
   
@@ -137,7 +138,6 @@ See the following examples of Kubernetes resources:
 * Deployment
 * Function
 * Ingress
-* Namespace
 * Node
 * PodPreset
 * Pod
@@ -147,6 +147,8 @@ See the following examples of Kubernetes resources:
 * ServiceBinding
 * ServiceClass
 * ServiceInstance
+
+> **NOTE:** Do not capitalize the word "namespace".
 
 ## Terminology
 
@@ -161,7 +163,6 @@ Here is the preferred terminology to use in the Kyma documentation:
 
 | ✅ Use                     | ⛔️ Don't use                              | Comment                           |
 | ------------------------ | ------------------------------- | --------------------------------- |
-| **API Micro Gateway**        | **API Gateway**                     |                                   |
 | **ID**                       | **id**                              |                                   |
 | **and**                      | **+** (plus), **&** (ampersand)         |                                   |
 | **backend**                  | **back end**, **back-end**              |                                   |
@@ -184,7 +185,7 @@ Here is the preferred terminology to use in the Kyma documentation:
 | **use**                      | **utilize**                         |                                   |
 | **using**, **with**              | **via**                             |                                   |
 | **YAML** (file format)       | **yaml**                            | If it's a file extension or file name, use `.yaml` (see [formatting](03-formatting.md)) |
-| **Prow Job** (process)       | **Prowjob**, **prowjob**                | If it's a resource, use [camel case](#camel-case): "ProwJob" |
+| **Prow Job** (process)       | **Prowjob**, **prowjob**                | If it's a resource, use [CamelCase](#camelcase): "ProwJob" |
 | **must**, **can**                | **should**                          | If mandatory, use “must”, if optional, use “can”. |
 | (you) **can**                | **it is possible to**, **allows you to**, **there is the possibility to**, **you have the option to**, … | If there’s no other option, drop the “can”, simply use [imperative](#voice-and-tone). |
 | **that is**                  | **i.e.**                            | If you must explain a statement with "i.e." or "that is,…", often the first statement adds little value and can be dropped completely, keeping just the part after "i.e.". |
@@ -194,7 +195,7 @@ Here is the preferred terminology to use in the Kyma documentation:
 | **the following**         | **below**, **this**, **the described**, ...    | or "as shown in the example"      |
 | **the previous**, **earlier** | **above**, **this**, **the described**, ...    | or "as shown in the example"      |
 
-### Command line arguments
+### Command Line Arguments
 
 Use short command line arguments whenever possible.
 

@@ -77,8 +77,8 @@ For each component, we identified the following artifacts:
 - Operator CRD (contains mainly overrides that can be set by customer or SRE for component installation)
 - Operator deployment (YAML to deploy component operator)
 - Operator image (Docker image in GCR)
-- Component CRDs ([installation/resources/crds](https://github.com/kyma-project/kyma/tree/main/installation/resources/crds))
-- Component deployment ([resources](https://github.com/kyma-project/kyma/tree/main/resources))
+- Component CRDs
+- Component deployment
 - Component images (docker images in GCR)
 
 Versioning of component resources could be achieved by packaging component CRDs and charts into the component operator binary (or container image). This way, the released operator would contain the CRDs and charts of its components in the local filesystem. 
@@ -102,7 +102,7 @@ New images of our own components (`eventing-controller`, `event-publisher-proxy`
 # Component descriptor
 
 ## OCM
-[OCM](https://ocm.software) stands for Open Component Descriptor and is used by Gardener. OCM intends to solve the problem of addressing, identifying, and accessing artifacts for software components, relative to an arbitrary component repository. By that, it also enables the transport of software components between component repositories. 
+[OCM](https://ocm.software) stands for Open Component Model and is used by Gardener. OCM intends to solve the problem of addressing, identifying, and accessing artifacts for software components, relative to an arbitrary component repository. By that, it also enables the transport of software components between component repositories. 
 
 ## Operator bundle from Operator Lifecycle Manager (OLM)
 [Operator bundle](https://olm.operatorframework.io/docs/tasks/creating-operator-bundle/#operator-bundle) is a container image that stores Kubernetes manifests and metadata associated with an operator. A bundle is meant to represent a specific version of an operator on cluster.
